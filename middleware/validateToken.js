@@ -8,8 +8,8 @@ const validaToken = (req, res, next) => {
         console.error('Valida Token, ERROR: No tiene Authorization');
         return res.status(401).json({ code: 401, msg: 'No tienes permiso para esta ruta' });
     }
-    if (!req.headers.codigosession) {
-        console.error('Petición erronea falta el codigosession');
+    if (!req.headers.session) {
+        console.error('Petición erronea falta el session');
         return res.status(400).json({ code: 400, msg: 'Petición erronea' });
     }
     try {
