@@ -10,7 +10,7 @@
   "author": "Saul Bompart",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "helmet": "^3.18.0",
     "jwt-simple": "^0.5.6",
     "lodash": "^4.17.11",
